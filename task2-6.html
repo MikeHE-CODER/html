@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prac2.css">
+    <style>
+        .content_border {
+            border: 1px solid darkgrey;
+            border-radius: 8px;
+        }
+
+        .red-border {
+            border: 1px solid red;
+        }
+
+        .red_outline {
+            outline: red solid 1px;
+        }
+
+        .hr6 {
+            color: #cfdfe4;
+        }
+
+        .blue-border {
+            border: 1px solid blue;
+        }
+
+        .lastsecond {
+            border: 1px solid red;
+            border-bottom: blue;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .last {
+            border: 1px solid blue;
+            border-radius: 0 0 8px 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content_border">
+        <h1>Check out my borders</h1>
+
+        We've modified the content div to have a 1px darkgrey border with rounded corners of an 8px radius.
+        <br>
+        Other elements can have borders too, <span class="red-border">like this span with the class red-border</span>
+        <hr class="hr6">
+
+        You can change the color of horizontal rules by changing the border color;
+        <br>
+        all horizontal rules are now #CFDFE4.
+        <br>
+        Alternately, <span class="red_outline">this span has a red outline (red-outline class).</span><br>
+        That prevents it from messing with the line height.
+    </div>
+    Notice how this fixes the borders: <br>
+    <div class="red-border">This div has a red border, except on the bottom, and 8px round top corners</div>
+    <div class="blue-border">This div has a blue border, and 8px round bottom corners
+    </div>
+    Notice how this fixes the borders: <br>
+    <div class="lastsecond">This div has a red border, except on the bottom, and 8px round top corners</div>
+    <div class="last">This div has a blue border, and 8px round bottom corners</div>
+</body>
+
+</html>

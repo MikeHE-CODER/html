@@ -1,0 +1,85 @@
+.a2 {
+    color: green;
+    font-family: sans-serif;
+}
+
+.s2 {
+    color: grey;
+    font-family: sans-serif;
+}
+
+.mark2 {
+    color: darkblue;
+    font-family: sans-serif;
+    background-color: pink;
+}
+
+
+.p2 {
+    font-family: sans-serif
+}
+
+.div2 {
+    font-family: monospace;
+}
+
+.h33 {
+    color: rgba(0, 0, 139, 0.8);
+}
+
+.transparent-text {
+    color: black;
+    opacity: 50%;
+}
+
+.div4 {
+    background-color: #DCF5F5;
+}
+
+.content {
+    background-color: white;
+
+}
+
+.blue {
+    color: blue;
+}
+
+.fancy {
+    font-family: cursive;
+}
+
+.roman-style {
+    list-style-type: lower-roman;
+}
+
+.square-style {
+    list-style-type: square;
+}
+
+.bar {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.bar li {
+    list-style: none;
+    float: left;
+
+}
+
+.bar a {
+    display: block;
+    padding: 10px 5px;
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+    text-align: center;
+
+}
+
+.bar a:hover {
+    background-color: darkgray;
+    color: black;
+}
