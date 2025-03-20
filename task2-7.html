@@ -10,6 +10,7 @@
             box-sizing: border-box;
         }
 
+
         .up_outer {
             text-align: right;
             background-color: blue;
@@ -17,6 +18,7 @@
             padding: 0;
             box-sizing: border-box;
             overflow: hidden;
+            border: 1px solid red;
         }
 
 
@@ -32,7 +34,8 @@
         .bottom_outer {
             box-sizing: border-box;
             margin-top: 20px;
-
+            background-color: blue;
+            border: 1px solid red;
         }
 
         .bottom_inner {
@@ -42,32 +45,37 @@
             width: 400px;
             box-sizing: border-box;
             height: 400px;
+            background-color: yellow;
         }
     </style>
 </head>
 
 <body>
-    <h1>Fun with nested boxes!</h1>
-    <div class="up_outer">
-        <div class="up_inner">A nested div<br>
-            The outer div has no margin or padding.<br>
-            The inner div has 20px margin on the left and right, 10px above and below.<br>
-            The inner div has 12px padding<br>
-            The inner div is 700px from the left to right borders (inclusive)<br>
-            and 200px from the top to bottom borders (inclusive)</div><br>
-    </div>
-    <div class="bottom_outer">
-        <div class="bottom_inner">A nested div
+    <div class="largest">
+        <h1>Fun with nested boxes!</h1>
+        <hr>
+        <div class="up_outer">
+            <div class="up_inner">A nested div<br>
+                The outer div has no margin or padding.<br>
+                The inner div has 20px margin on the left and right, 10px above and below.<br>
+                The inner div has 12px padding<br>
+                The inner div is 700px from the left to right borders (inclusive)<br>
+                and 200px from the top to bottom borders (inclusive)</div><br>
+        </div>
+        <div class="bottom_outer">
+            <div class="bottom_inner">A nested div <br>
 
-            The outer div has a top margin of 20px, but no padding.
+                The outer div has a top margin of 20px, but no <br>padding.
+                <br>
+                The inner div is centred <br>
 
-            The inner div is centred
+                The inner div has 12px padding <br>
 
-            The inner div has 12px padding
-
-            The inner div is 400px square with borders
+                The inner div is 400px square with borders
+            </div>
         </div>
     </div>
+
 
 </body>
 
