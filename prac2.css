@@ -35,6 +35,9 @@
 
 .div4 {
     background-color: #DCF5F5;
+    background-image: url('cross-1.png');
+    background-repeat: repeat;
+    padding: 20px;
 }
 
 .content {
