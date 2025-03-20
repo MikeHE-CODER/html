@@ -4,39 +4,6 @@ body {
     background-position: top;
 }
 
-.a2 {
-    color: green;
-    font-family: sans-serif;
-}
-
-.h12 {
-    font-family: sans-serif;
-}
-
-.h22 {
-    font-family: sans-serif;
-    text-align: left;
-}
-
-.s2 {
-    color: grey;
-    font-family: sans-serif;
-}
-
-.mark2 {
-    color: darkblue;
-    font-family: sans-serif;
-    background-color: pink;
-}
-
-
-.p2 {
-    font-family: sans-serif
-}
-
-.div2 {
-    font-family: monospace;
-}
 
 .h33 {
     color: rgba(0, 0, 139, 0.8);
@@ -126,4 +93,108 @@ body {
 .bar a:hover {
     background-color: darkgray;
     color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.content2 {
+    display: flex;
+    gap: 10px;
+}
+
+.left-div {
+    width: 180px;
+    height: 400px;
+    overflow-y: auto;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.right-div {
+    flex-grow: 1;
+    height: 400px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.red-box {
+    width: 1000px;
+    height: 100px;
+    border: 2px solid red;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    overflow: hidden;
+}
+
+
+.h12,
+.h22 {
+    font-family: Arial, sans-serif;
+}
+
+.hr2 {
+    border: 1px solid black;
+}
+
+.p2 {
+    font-family: serif;
+}
+
+.a2 {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.s2 {
+    color: grey;
+}
+
+.highlight2 {
+    color: darkblue;
+    background-color: pink;
+}
+
+.h22 {
+    text-align: left;
+    font-weight: bold;
+}
+
+.pre2 {
+    font-family: monospace;
+    font-size: 1em;
+}
+
+.file-name {
+    background-color: lightgray;
+    border: 1px solid red;
+    padding: 2px 5px;
+    font-family: monospace;
+    color: black;
+    border-radius: 3px;
 }
