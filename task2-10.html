@@ -4,105 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listomania</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .container {
-            width: 80%;
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            margin-top: 0;
-        }
-
-        .bar {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            background-color: grey;
-        }
-
-        .bar li {
-            float: left;
-        }
-
-        .bar a {
-            display: block;
-            padding: 10px 15px;
-            text-decoration: none;
-            color: white;
-            text-align: center;
-        }
-
-        .bar a:hover {
-            background-color: darkgray;
-        }
-
-        ol {
-            margin-top: 20px;
-        }
-
-        .square-style {
-            list-style-type: square;
-        }
-
-        .roman-style {
-            list-style-type: lower-roman;
-        }
-    </style>
+    <title>Turning the Tables</title>
+    <link rel="stylesheet" href="prac2.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1>Listomania</h1>
-        <ul class="bar">
-            <li><a href="#">A Horizontal</a></li>
-            <li><a href="#">List Menu</a></li>
-            <li><a href="#">White on Darkgrey</a></li>
-            <li><a href="#">Darkgrey with Lightgrey Shadow</a></li>
-        </ul>
+    <h1>Turning the tables</h1>
 
-        <ol>
-            <li>An numbered list</li>
-            <li>Containing
-                <ul class="square-style">
-                    <li>A dotted list</li>
-                    <li>Containing
-                        <ol class="roman-style">
-                            <li>A roman numeral list</li>
-                            <li>And some items</li>
-                            <li>Like this</li>
-                        </ol>
-                    </li>
-                    <li>And some items</li>
-                    <li>Like this</li>
-                </ul>
-            </li>
-            <li>And subsequent nested lists
-                <ul class="square-style">
-                    <li>Like this
-                        <ol class="roman-style">
-                            <li>are also automatically styled the same</li>
-                        </ol>
-                    </li>
-                </ul>
-            </li>
-            <li>Like this</li>
-        </ol>
-    </div>
+    <h2>A Fancy Table</h2>
+    <table class="fancy-table">
+        <thead>
+            <tr>
+                <th>White</th>
+                <th>on</th>
+                <th>darkslategrey</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Black</td>
+                <td>on</td>
+                <td>#F8F8F8</td>
+            </tr>
+            <tr>
+                <td>Black</td>
+                <td>on</td>
+                <td>White</td>
+            </tr>
+            <tr>
+                <td>Darkgrey</td>
+                <td>border</td>
+                <td>beneath</td>
+            </tr>
+            <tr>
+                <td>each</td>
+                <td>row</td>
+                <td>table 500px wide</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>A complex Table</h2>
+    <table class="complex-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+                <th>Hex</th>
+                <th>RGB</th>
+                <th>HSL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="color: red;">red</td>
+                <td>#ff0000</td>
+                <td>255,0,0</td>
+                <td>0,100%,50%</td>
+                <td></td> <!-- Fixed missing HSL column -->
+            </tr>
+            <tr>
+                <td style="color: green;">green</td>
+                <td>#00ff00</td>
+                <td>0,255,0</td>
+                <td>120,100%,50%</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="color: blue;">blue</td>
+                <td>#0000ff</td>
+                <td>0,0,255</td>
+                <td>240,100%,50%</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="background-color: palegoldenrod;">palegoldenrod</td>
+                <td colspan="4">table header color</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 
 </html>
