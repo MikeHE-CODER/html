@@ -125,6 +125,8 @@ h22 {
 table {
     width: 500px;
     border-collapse: collapse;
+    table-layout: fixed;
+    /* Ensures fixed column width */
     margin-bottom: 20px;
 }
 
@@ -143,7 +145,8 @@ table {
 
 /* Complex Table Styling */
 .complex-table thead {
-    background-color: palegoldenrod;
+    background-color: #EEE8AA;
+    /* Darker palegoldenrod */
 }
 
 .complex-table th,
@@ -151,10 +154,11 @@ table {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
+    vertical-align: middle;
 }
 
 /* Table Header Styling */
 .complex-table thead th {
-    background-color: palegoldenrod;
+    background-color: #EEE8AA;
     font-weight: bold;
 }
