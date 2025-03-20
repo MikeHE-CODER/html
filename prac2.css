@@ -121,16 +121,13 @@ h22 {
     color: black;
 }
 
-/* General Table Styling */
 table {
     width: 500px;
-    border-collapse: collapse;
     table-layout: fixed;
-    /* Ensures fixed column width */
     margin-bottom: 20px;
+    border-collapse: collapse;
 }
 
-/* Fancy Table Styling */
 .fancy-table thead {
     background-color: darkslategrey;
     color: white;
@@ -138,7 +135,7 @@ table {
 
 .fancy-table th,
 .fancy-table td {
-    border: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
     padding: 8px;
     text-align: left;
 }
@@ -155,6 +152,7 @@ table {
     padding: 8px;
     text-align: left;
     vertical-align: middle;
+    padding: 10px;
 }
 
 /* Table Header Styling */
