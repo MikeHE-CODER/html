@@ -120,3 +120,41 @@ h22 {
     background-color: darkgray;
     color: black;
 }
+
+/* General Table Styling */
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Fancy Table Styling */
+.fancy-table thead {
+    background-color: darkslategrey;
+    color: white;
+}
+
+.fancy-table th,
+.fancy-table td {
+    border: 1px solid darkgrey;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Complex Table Styling */
+.complex-table thead {
+    background-color: palegoldenrod;
+}
+
+.complex-table th,
+.complex-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Table Header Styling */
+.complex-table thead th {
+    background-color: palegoldenrod;
+    font-weight: bold;
+}
