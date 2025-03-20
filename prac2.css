@@ -3,6 +3,40 @@
     font-family: sans-serif;
 }
 
+h12 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.p2 {
+    font-family: serif;
+}
+
+.a2 {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.s2 {
+    color: grey;
+}
+
+.mark2 {
+    color: darkblue;
+    background-color: pink;
+}
+
+h22 {
+    font-family: sans-serif;
+    text-align: left;
+    font-weight: bold;
+}
+
+.div2 {
+    font-family: monospace;
+    font-size: 1em;
+}
+
 .s2 {
     color: grey;
     font-family: sans-serif;
@@ -14,9 +48,8 @@
     background-color: pink;
 }
 
-
 .p2 {
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
 .div2 {
